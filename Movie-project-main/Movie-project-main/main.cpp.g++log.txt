@@ -1,0 +1,109 @@
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawSun()':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:4:6: warning: no previous declaration for 'void DrawSun()' [-Wmissing-declarations]
+ void DrawSun()
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawFon()':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:12:6: warning: no previous declaration for 'void DrawFon()' [-Wmissing-declarations]
+ void DrawFon()
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawFon2()':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:29:6: warning: no previous declaration for 'void DrawFon2()' [-Wmissing-declarations]
+ void DrawFon2()
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawPotsandGrass()':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:121:6: warning: no previous declaration for 'void DrawPotsandGrass()' [-Wmissing-declarations]
+ void DrawPotsandGrass()
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawDomaFon1()':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:147:6: warning: no previous declaration for 'void DrawDomaFon1()' [-Wmissing-declarations]
+ void DrawDomaFon1()
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:199:13: warning: declaration of 'y1' shadows a previous local [-Wshadow]
+     for(int y1 = 110; y1 < 420; y1+=30)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:149:9: warning: shadowed declaration is here [-Wshadow]
+     int y1 = 110;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:209:13: warning: declaration of 'y2' shadows a previous local [-Wshadow]
+     for(int y2 = 165; y2 < 420; y2+=30)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:150:9: warning: shadowed declaration is here [-Wshadow]
+     int y2 = 165;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:217:13: warning: declaration of 'y3' shadows a previous local [-Wshadow]
+     for(int y3 = 60; y3 < 415; y3+=30)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:151:9: warning: shadowed declaration is here [-Wshadow]
+     int y3 = 60;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:225:13: warning: declaration of 'y4' shadows a previous local [-Wshadow]
+     for(int y4 = 235; y4 < 485; y4+=30)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:152:9: warning: shadowed declaration is here [-Wshadow]
+     int y4 = 235;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:233:13: warning: declaration of 'y5' shadows a previous local [-Wshadow]
+     for(int y5 = 255; y5 < 485; y5+=30)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:153:9: warning: shadowed declaration is here [-Wshadow]
+     int y5 = 255;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:241:13: warning: declaration of 'y6' shadows a previous local [-Wshadow]
+     for(int y6 = 115; y6 < 505; y6+=30)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:154:9: warning: shadowed declaration is here [-Wshadow]
+     int y6 = 115;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:249:13: warning: declaration of 'y7' shadows a previous local [-Wshadow]
+     for(int y7 = 105; y7 < 460; y7+=30)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:155:9: warning: shadowed declaration is here [-Wshadow]
+     int y7 = 105;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:149:9: warning: unused variable 'y1' [-Wunused-variable]
+     int y1 = 110;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:150:9: warning: unused variable 'y2' [-Wunused-variable]
+     int y2 = 165;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:151:9: warning: unused variable 'y3' [-Wunused-variable]
+     int y3 = 60;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:152:9: warning: unused variable 'y4' [-Wunused-variable]
+     int y4 = 235;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:153:9: warning: unused variable 'y5' [-Wunused-variable]
+     int y5 = 255;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:154:9: warning: unused variable 'y6' [-Wunused-variable]
+     int y6 = 115;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:155:9: warning: unused variable 'y7' [-Wunused-variable]
+     int y7 = 105;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void Drawattractions()':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:280:6: warning: no previous declaration for 'void Drawattractions()' [-Wmissing-declarations]
+ void Drawattractions()
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:292:13: warning: declaration of 'y1' shadows a previous local [-Wshadow]
+     for(int y1 = 415; y1 < 500; y1+=10)
+             ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:283:9: warning: shadowed declaration is here [-Wshadow]
+     int y1 = 415;
+         ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:283:9: warning: unused variable 'y1' [-Wunused-variable]
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawStop()':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:325:6: warning: no previous declaration for 'void DrawStop()' [-Wmissing-declarations]
+ void DrawStop()
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawCar(int)':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:337:6: warning: no previous declaration for 'void DrawCar(int)' [-Wmissing-declarations]
+ void DrawCar(int x)
+      ^
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp: In function 'void DrawCloud(int)':
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp:368:6: warning: no previous declaration for 'void DrawCloud(int)' [-Wmissing-declarations]
+ void DrawCloud(int x)
+      ^
+---------------------------------------------------------------------------------------------
+[23.12.2022 16:38:21,48 C:\Users\Игорь@GENYUS-PC, returned 0]
+C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main>g++.exe "C:\Users\Игорь\Downloads\Movie-project-main(1)\Movie-project-main\main.cpp" -o bin\Debug\Multbik.exe -mwindows  -Wall -fexceptions  -g  -Wshadow -Winit-self -Wredundant-decls -Wcast-align -Wundef -Wfloat-equal -Winline -Wunreachable-code -Wmissing-declarations -Wmissing-include-dirs -Wswitch-enum -Wswitch-default -Weffc++ -Wmain -Wextra -Wall -g -pipe -fexceptions -Wcast-qual -Wconversion -Wctor-dtor-privacy -Wempty-body -Wformat-security -Wformat=2 -Wignored-qualifiers -Wlogical-op -Wmissing-field-initializers -Wnon-virtual-dtor -Woverloaded-virtual -Wpointer-arith -Wsign-promo -Wstack-usage=8192 -Wstrict-aliasing -Wstrict-null-sentinel -Wtype-limits -Wwrite-strings -D_DEBUG -D_EJUDGE_CLIENT_SIDE -D_EJC
