@@ -1,0 +1,585 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x1D14 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 800, 600, background);
+     18:             txTransparentBlt (txDC(), xSmile, ySmile, 120, 120, smile,0,0, TX_BLACK);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:27:19, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 17:27:26
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x1F4C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 800, 600, background);
+     18:             txTransparentBlt (txDC(), xSmile, ySmile, 120, 120, smile,0,0, TX_BLACK);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:29:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 17:29:09
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x18E4 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 1600, 900, background);
+     18:             txTransparentBlt (txDC(), xSmile, ySmile, 350, 341, smile,0,0, TX_BLACK);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:30:25, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 17:30:32
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x778 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 1600, 900, Background_1);
+     18:             txTransparentBlt (txDC(), xEnemy, yEnemy, 350, 341, Enemy, 0, 0, TX_WHITE);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:34:25, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 17:34:32
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0xE4C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 1600, 900, Background_1);
+     18:             txTransparentBlt (txDC(), xEnemy, yEnemy, 350, 341, Enemy, 0, 0, TX_WHITE);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:37:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 17:37:25
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x28B0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 1600, 900, Background_1);
+     18:             txTransparentBlt (txDC(), xEnemy, yEnemy, 350, 341, Enemy, 0, 0, TX_WHITE);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:52:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 17:52:31
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x49C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 1600, 900, Background_1);
+     18:             txTransparentBlt (txDC(), xEnemy, yEnemy, 350, 341, Enemy, 0, 0, TX_WHITE);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:52:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 17:54:41
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x1FBC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 1600, 900, Background_1);
+     18:             txTransparentBlt (txDC(), xEnemy, yEnemy, 350, 341, Enemy, 0, 0, TX_WHITE);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:52:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 19:33:30
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x3C8C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416409 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txBitBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041C60B in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (17):
+
+     15:             txSetColor(TX_WHITE);
+     16:             txSetFillColor(TX_BLACK);
+=>   17:             txBitBlt (txDC(), 0, 0, 1600, 900, Background_1);
+     18:             txTransparentBlt (txDC(), xEnemy, yEnemy, 350, 341, Enemy, 0, 0, TX_WHITE);
+     19: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 17:52:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 21:02:58
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {0, 0, 56, 83} не полностью лежит внутри изображения-источника {0, 0, 55, 80}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x1CD8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txTransparentBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041C8AA in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (36):
+
+     34:                 if(Idle_GG = 2)
+     35:                 {
+=>   36:                     txTransparentBlt (txDC(), xEnemy, yEnemy, 56, 83, GG_Idle_2, 0, 0, TX_WHITE);
+     37:                      Idle_GG += 1;
+     38:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 21:51:34, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 21:51:41
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 0, 112, 83} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x964 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txTransparentBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041C81D in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (30):
+
+     28:                     if(Idle_GG = 1)
+     29:                 {
+=>   30:                     txTransparentBlt (txDC(), x1GG, y1GG, 56, 83, GG_Idle_1, Idle_GG*56, 0, TX_WHITE);
+     31:                      Idle_GG += 1;
+     32:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 22:04:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 22:04:46
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 0, 112, 83} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x3F90 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txTransparentBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041C81D in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (30):
+
+     28:                     if(Idle_GG = 1)
+     29:                 {
+=>   30:                     txTransparentBlt (txDC(), x1GG, y1GG, 56, 83, GG_Idle_1, Idle_GG*56, 0, TX_WHITE);
+     31:                      Idle_GG += 1;
+     32:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 23 2023 22:07:27, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 23 2023 22:07:34
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x994 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txTransparentBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041C82D in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (30):
+
+     28:                     if(Idle_GG = 1)
+     29:                 {
+=>   30:                     txTransparentBlt (txDC(), x1GG, y1GG, 56, 83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     31:                      Idle_GG += 1;
+     32:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 24 2023 21:40:54, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 24 2023 21:41:07
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x2D98 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txTransparentBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041C853 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (32):
+
+     30:                     if(Idle_GG = 1)
+     31:                 {
+=>   32:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     33:                      Idle_GG += 1;
+     34:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 24 2023 21:42:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 24 2023 21:42:44
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {110, 160, 165, 240} не полностью лежит внутри изображения-источника {0, 0, 55, 80}, функция txTransparentBlt() работать не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x2D98 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: txTransparentBlt() at c:/games/codeblocke/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041C93A in C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe: main() at C:/C++/Pixels and Guns/main.cpp (38):
+
+     36:                 if(Idle_GG = 2)
+     37:                 {
+=>   38:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+55, y2GG+80, GG_Idle_2, Idle_GG*55, Idle_GG*80, TX_WHITE);
+     39:                      Idle_GG += 1;
+     40:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 24 2023 21:42:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 24 2023 21:42:44
+
+Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\C++\Pixels and Guns
+
+--------------------------------------------------
