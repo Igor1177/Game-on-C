@@ -583,3 +583,34 @@ Run file:	C:\C++\Pixels and Guns\bin\Debug\Pixels and Guns.exe
 Directory:	C:\C++\Pixels and Guns
 
 --------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Downloads\Game-on-C-main\Game-on-C-main\Pixels and Guns\bin\Debug\Pixels and Guns.exe, файл: c:\games\codeblocke\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x2CA8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\games\codeblocke\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 24 2023 21:42:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 27 2023 16:56:56
+
+Run file:	C:\Users\user\Downloads\Game-on-C-main\Game-on-C-main\Pixels and Guns\bin\Debug\Pixels and Guns.exe
+Directory:	C:\Users\user\Downloads\Game-on-C-main\Game-on-C-main\Pixels and Guns
+
+--------------------------------------------------
