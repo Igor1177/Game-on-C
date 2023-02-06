@@ -7,11 +7,13 @@ txCreateWindow (1600, 900);
         HDC  Background_1 = txLoadImage ("Images/Backgrounds/Backgroundfirst.bmp");
         HDC  GG_Run_Right = txLoadImage ("Images/Sprites_Heroes/Run_knight/Run_right.bmp");
         //HDC GG_Run_Left
+        HDC GG_Jump = txLoadImage ("Images/Sprites_Heroes/Jump_knight/Jump.bmp")
         HDC  GG_Idle = txLoadImage ("Images/Sprites_Heroes/Idle_knight/Idle.bmp");
         int xGG = 0;
         int yGG = 0;
         int Idle_GG = 1;
         int Run_GG = 1;
+        int Jump_GG = 1;
 
         while (!GetAsyncKeyState (VK_ESCAPE))
         {
@@ -21,7 +23,7 @@ txCreateWindow (1600, 900);
             txBitBlt (txDC(), 0, 0, 1600, 900, Background_1);
             //txTransparentBlt (txDC(), xEnemy, yEnemy, 350, 341, Enemy, 0, 0, TX_WHITE);
 
-            if(!GetAsyncKeyState ('W') || ('S') || ('D') || ('A'))
+            if(!GetAsyncKeyState ('D') || ('A'))
             {
                 txTransparentBlt (txDC(), xGG, yGG, 53, 72, GG_Idle, Idle_GG*53, 0, TX_WHITE);
                 Idle_GG += 1;
@@ -30,40 +32,32 @@ txCreateWindow (1600, 900);
             }
 
 
-            if(GetAsyncKeyState ('W'))
-            {
-                   yGG += 10;
-                    txTransparentBlt (txDC(), xGG, yGG, 67, 72, GG_Run_Right, Run_GG*67, 0, TX_WHITE);
-                        Run_GG += 1;
-                        txSleep(40);
-                            if (Run_GG>=7) Idle_GG = 1;
-            }
-
-            if(GetAsyncKeyState ('S'))
-            {
-                    yGG -= 10;
-                    txTransparentBlt (txDC(), xGG, yGG, 67, 72, GG_Run_Right, Run_GG*67, 0, TX_WHITE);
-                        Run_GG += 1;
-                        txSleep(40);
-                            if (Run_GG>=7) Idle_GG = 1;
-            }
-
             if(GetAsyncKeyState ('D'))
             {
                     xGG += 10;
-                    txTransparentBlt (txDC(), xGG, yGG, 67, 72, GG_Run_Right, Run_GG*67, 0, TX_WHITE);
+                    txTransparentBlt (txDC(), xGG, yGG, 70, 72, GG_Run_Right, Run_GG*70, 0, TX_WHITE);
                         Run_GG += 1;
-                        txSleep(40);
-                            if (Run_GG>=7) Idle_GG = 1;
+                        txSleep(10);
+                            if (Run_GG>=7) Run_GG = 1;
             }
 
             if(GetAsyncKeyState ('A'))
             {
                     xGG -= 10;
-                    txTransparentBlt (txDC(), xGG, yGG, 67, 72, GG_Run_Right, Run_GG*67, 0, TX_WHITE);
+                    txTransparentBlt (txDC(), xGG, yGG, 70, 72, GG_Run_Right, Run_GG*70, 0, TX_WHITE);
                         Run_GG += 1;
-                        txSleep(40);
-                            if (Run_GG>=7) Idle_GG = 1;
+                        txSleep(10);
+                            if (Run_GG>=7) Run_GG = 1;
+            }
+
+
+            if(GetAsyncKeyState (VK_SPACE))
+            {
+                 yGG -= 30;
+                 txTransparentBlt (txDC(), xGG, yGG, 70, 72, GG_Jump, Jump_GG*70, 0, TX_WHITE);
+                    Jump_GG += 1;
+                    txSleep(10);
+                        if (Jump_GG>=7) Jump_GG = 1;
             }
 
             txEnd();
