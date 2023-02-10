@@ -7,10 +7,11 @@ txCreateWindow (1600, 900);
         HDC  Background_1 = txLoadImage ("Images/Backgrounds/Backgroundfirst.bmp");
         HDC  GG_Run_Right = txLoadImage ("Images/Sprites_Heroes/Run_knight/Run_right.bmp");
         //HDC GG_Run_Left
-        HDC GG_Jump = txLoadImage ("Images/Sprites_Heroes/Jump_knight/Jump.bmp")
-        HDC  GG_Idle = txLoadImage ("Images/Sprites_Heroes/Idle_knight/Idle.bmp");
+        HDC GG_Jump = txLoadImage ("Images/Sprites_Heroes/Jump_knight/Jump.bmp");
+        HDC GG_Idle = txLoadImage ("Images/Sprites_Heroes/Idle_knight/Idle.bmp");
         int xGG = 0;
         int yGG = 0;
+        int Ground = 700;
         int Idle_GG = 1;
         int Run_GG = 1;
         int Jump_GG = 1;
@@ -50,7 +51,11 @@ txCreateWindow (1600, 900);
                             if (Run_GG>=7) Run_GG = 1;
             }
 
-
+            yGG += 20;
+            if (yGG > Ground-53)
+            {
+                yGG = Ground-53;
+            }
             if(GetAsyncKeyState (VK_SPACE))
             {
                  yGG -= 30;
