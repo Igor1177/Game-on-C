@@ -1,0 +1,390 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x18E4 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C82C in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (32):
+
+     30:                     if(Idle_GG = 1)
+     31:                 {
+=>   32:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     33:                      Idle_GG += 1;
+     34:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:54:06
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {110, 160, 165, 240} не полностью лежит внутри изображения-источника {0, 0, 55, 80}, функция txTransparentBlt() работать не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x18E4 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C913 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (38):
+
+     36:                 if(Idle_GG = 2)
+     37:                 {
+=>   38:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+55, y2GG+80, GG_Idle_2, Idle_GG*55, Idle_GG*80, TX_WHITE);
+     39:                      Idle_GG += 1;
+     40:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:54:06
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {168, 246, 224, 328} не полностью лежит внутри изображения-источника {0, 0, 56, 82}, функция txTransparentBlt() работать не будет.
+
+#3: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x18E4 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C9FE in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (44):
+
+     42:                 if(Idle_GG = 3)
+     43:                 {
+=>   44:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+82, GG_Idle_3, Idle_GG*56, Idle_GG*82, TX_WHITE);
+     45:                      Idle_GG += 1;
+     46:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:54:07
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x2D84 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C82C in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (32):
+
+     30:                     if(Idle_GG = 1)
+     31:                 {
+=>   32:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     33:                      Idle_GG += 1;
+     34:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:55:03
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x3AC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C82C in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (32):
+
+     30:                     if(Idle_GG = 1)
+     31:                 {
+=>   32:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     33:                      Idle_GG += 1;
+     34:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:55:59
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x2E9C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C82C in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (32):
+
+     30:                     if(Idle_GG = 1)
+     31:                 {
+=>   32:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     33:                      Idle_GG += 1;
+     34:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:56:08
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x494 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C82C in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (32):
+
+     30:                     if(Idle_GG = 1)
+     31:                 {
+=>   32:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     33:                      Idle_GG += 1;
+     34:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:57:39
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {110, 160, 165, 240} не полностью лежит внутри изображения-источника {0, 0, 55, 80}, функция txTransparentBlt() работать не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x494 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C913 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (38):
+
+     36:                 if(Idle_GG = 2)
+     37:                 {
+=>   38:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+55, y2GG+80, GG_Idle_2, Idle_GG*55, Idle_GG*80, TX_WHITE);
+     39:                      Idle_GG += 1;
+     40:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:57:39
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {56, 83, 112, 166} не полностью лежит внутри изображения-источника {0, 0, 56, 83}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x31D0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C82C in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (32):
+
+     30:                     if(Idle_GG = 1)
+     31:                 {
+=>   32:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+56, y2GG+83, GG_Idle_1, Idle_GG*56, Idle_GG*83, TX_WHITE);
+     33:                      Idle_GG += 1;
+     34:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:59:28
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe, файл: C:\Libs\TxLib\TX\TXLib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {110, 160, 165, 240} не полностью лежит внутри изображения-источника {0, 0, 55, 80}, функция txTransparentBlt() работать не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F32FC (32-bit), Flags: CMdRe0, Thread: 0x31D0 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004169B9 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: txTransparentBlt() at C:/Libs/TxLib/TX/TXLib.h (13678)
+
+# 1 0x0041C913 in C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe: main() at C:/C++/Nobody will come back the same/main.cpp (38):
+
+     36:                 if(Idle_GG = 2)
+     37:                 {
+=>   38:                     txTransparentBlt (txDC(), x1GG, y1GG, x2GG+55, y2GG+80, GG_Idle_2, Idle_GG*55, Idle_GG*80, TX_WHITE);
+     39:                      Idle_GG += 1;
+     40:                 }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Libs\TxLib\TX\TXLib.h
+Compiled:	Mar  3 2023 16:53:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Mar 03 2023 16:59:29
+
+Run file:	C:\C++\Nobody will come back the same\bin\Debug\Nobody will come back the same.exe
+Directory:	C:\C++\Nobody will come back the same
+
+--------------------------------------------------
